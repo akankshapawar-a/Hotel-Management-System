@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button {
+            color: darkred;
+        }
+    </style>
+    <!-- <iframe src="image.html" style="border:none; width: 1400px;margin:0ex;margin-top:0px;" title="Iframe Example">contact</iframe> -->
+
+
+    <body>
+        <marquee behivour="scroll" direction="left"><b>....Welcome to Hotel Jagdamba Cottage.....</b></marquee>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <pre>
+             <h1>               Hotel Jagdamba Cottage</h1></pre>
+        <div class="red" style="text-align:right;">
+            <button onclick="document.location='Home.html'">Home</button>
+            <button onclick="document.location='aboutus.html'">About us</button>
+
+            <button onclick="document.location='image.html'">Image</button>
+            <button onclick="document.location='register.html'">Register</button>
+            <button onclick="document.location='contact.html'">Contact Us</button>
+            <button onclick="document.location='prtice.html'">Login </button>
+        </div> <br>
+        <pre style="color:darkred">Pune Solapur Highway, Tembhurni Solapur,
+            Solapur - 413211, 
+      Near Karmala Chowk</pre>
+        <hr><br>
+        <h2 style="text-align:center;color:red">Login Here</h2>
+
+        <!-- <img src="https://www.bing.com/images/search?view=detailV2&ccid=nsLVzk9C&id=05E7BE2B60B6F97FB8D262073805BC9EAD7258CA&thid=OIP.nsLVzk9CzMMQ8T8cD1PSlQHaE8&mediaurl=https%3A%2F%2Fwww.bird-wittenbergdental.com%2Fwp-content%2Fuploads%2F2017%2F01%2Ftop-line-management-login-background-1.jpg&exph=1320&expw=1980&q=background+Login&simid=608033435287829771&form=IRPRST&ck=0DB37E63DBF0F3818C38B83BF2F49AE1&selectedindex=0&ajaxhist=0&ajaxserp=0&vt=0&sim=11" -->
+        <!-- style=" width:500px; float:left;"> -->
+        </i>
+        <div align="center">
+            <form>
+
+                <div class="one" style="color:darkorange;">
+                    <label for="email" placeholder="Enter your Mail">Email address</label><br>
+                    <input type="email" id="email" name="email">
+                </div><br>
+                <div class="two" style="color:darkorange;">
+                    <label for="pdw">Password</label><br>
+                    <input class="class1" type="password" id="pdw" name="pdw">
+                </div><br>
+                <div class="red" style="color:darkorange;">
+                    <input class="class1" type="checkbox" value="" id="checkbox" checked />
+                    <label for="checkbox"> Remember me </label>
+                </div>
+                <div class="red2">
+                    <a href="#!">Forgot password?</a>
+                </div>
+
+                <br> <button type="button" style="background-color: #04aa04;width: 195px;padding: 14px 20px;margin: 8px 0;">Login</button>
+                <div button="size:30px;">
+                    <p style="color:darkorange;">Not a member? <a href="#!">Register</a></p>
+                    <p style="color: darkorange;">or login :</p>
+                    <button type="button">
+            <i class="facebook"><img src="data:image/png;base64,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"width="18px"></i>
+          </button>
+                    <button type="button">
+            <i class="Google"><img src="https://logowik.com/content/uploads/images/985_google_g_icon.jpg"width="18px"></i>
+</i>
+          </button>
+                    <button type="button">
+            <i class="twitter"><img src="https://1000logos.net/wp-content/uploads/2021/04/Twitter-logo.png"width="18px"></i>
+          </button>
+                    <button type="button">
+            <i class="create new account" style="color:black;"><b>...</b></i>
+          </button>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>

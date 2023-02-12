@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            color: black;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="hotel.css"> -->
+</head>
+
+<body style="background-image:url('https://ceblog.s3.amazonaws.com/wp-content/uploads/2012/02/beautiful-restaurant-websites.jpg')">
+    <br> <br>
+    <marquee behivour="scroll" direction="left"><b>....Welcome to Hotel Jagdamba Cottage.....</b></marquee>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <pre>
+             <h1>               Hotel Jagdamba Cottage</h1></pre>
+    <div class="red" style="text-align:right">
+        <button onclick="document.location='Home.html'">Home</button>
+        <button onclick="document.location='aboutus.html'">About us</button>
+
+        <button onclick="document.location='image.html'">Image</button>
+        <button onclick="document.location='register.html'">Register</button>
+        <button onclick="document.location='contact.html'">Contact Us</button>
+        <button onclick="document.location='prtice.html'">Login </button>
+    </div> <br>
+    <pre style="color:rgb(46, 31, 98)">Pune Solapur Highway, Tembhurni Solapur,
+        Solapur - 413211, 
+  Near Karmala Chowk</pre>
+    <hr>
+    <h1 style="color: palevioletred;">Registration for food order:</h1>
+
+
+    <form>
+        <label for="fname"> <b>Firstname :</b></label>
+        <input type="text" id="fname" name="fname" size="15"> <br> <br>
+        <label for="mname"><b>Middlename:</b> </label>
+        <input type="text" id="mname" name="mname" size="15"> <br> <br>
+        <label for="lname"><b>Lastname:</b></label>
+        <input type="text" id="lname" name="lastname" size="15"> <br> <br>
+        <label>   
+      <b>Gender:  </b>
+        </label><br>
+        <input type="radio" name="male" /><b>Male</b> <br>
+        <input type="radio" name="female" /><b> Female </b><br>
+        <input type="radio" name="other" /><b> Other</b>
+        <br>
+        <br>
+        <label>   
+          <b>  Phone :  </b>
+            </label>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="text" name="phone" size="10" /> <br> <br> <b>Address</b>
+        <br>
+        <textarea cols="80" rows="5" value="address">  
+            </textarea>
+        <br> <br><b>Email:</b>
+        <input type="email" id="email" name="email" /> <br>
+        <br> <br><b> Password:</b>
+        <input type="Password" id="pass" name="pass"> <br>
+        <br> <br><b>Re-type password:</b>
+        <input type="Password" id="repass" name="repass"> <br> <br>
+        <label>   
+           <b> which type of food do you like:</b>
+            </label><br>
+        <input type="radio" name="veg" /><b>Veg</b><br>
+        <input type="radio" name="Non-veg" /><b>Non-Veg </b><br>
+        <input type="radio" name="Both" /> <b>both</b>
+        <br>
+        <br> <b> Special Menu Type :</b>
+        </label>
+        <select>  
+<option value="Select"><p>Select</p></option>
+<option value="Startup"><p>Startup</p></option>l  
+<option value="desert"><p>Desert</p></option>  
+<option value="cheneese"><p>chinese</p></option>  
+<option value="special thali"><p>Special thali</p></option>  
+<option value="gravey"><p>Gravey</p></option>  
+<option value="roties"><p>Roties</p></option>  
+</select>
+
+        <br>
+        <input type="button" value="Submit">
+    </form>
+
+
+
+
+</body>
+
+</html>
